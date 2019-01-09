@@ -59,6 +59,7 @@ export default function getSlideFromRightTransitionConfig() {
       duration: 500,
       easing: Easing.bezier(0.2833, 0.99, 0.31833, 0.99),
       timing: Animated.timing,
+      useNativeDriver: true
     },
     screenInterpolator: forHorizontal,
   };
